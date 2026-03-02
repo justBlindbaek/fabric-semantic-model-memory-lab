@@ -6,10 +6,13 @@ This repository contains a complete, end-to-end reference implementation used to
 The project is intentionally structured in **two phases**:
 
 1. **Building a modeling-ready dataset** (data engineering, schema unification, validation)
-2. **Shaping semantic models** (Import, Hybrid, Direct Lake) — added later
+   — [Blog post](https://justb.dk/blog/2026/02/building-a-fabric-lab-for-semantic-model-memory-experiments-with-help-from-chatgpt/)
+2. **Shaping semantic models** (Import, Hybrid, Direct Lake)
+   — Blog post coming
 
-The first phase is the foundation and the focus of the initial blog post.
-The second phase builds on top of it without changing the underlying data.
+The first phase covers the full data pipeline from raw ingestion to a modeling-ready schema.
+The second phase adds semantic models on top of that data without changing the underlying tables.
+The initial model is already in this repo — the blog post will follow.
 
 ---
 
@@ -45,6 +48,19 @@ These characteristics make it ideal for demonstrating real-world modeling challe
 ## Repository structure
 
 ```text
+models/
+└── YellowTaxi/                        ← Tabular Editor "Save to folder" format
+    ├── database.json
+    └── tables/
+        ├── Date/
+        ├── Payment Type/
+        ├── Rate Code/
+        ├── Taxi Zone Dropoff/
+        ├── Taxi Zone Pickup/
+        ├── Time/
+        ├── Vendor/
+        └── Yellow Taxi/               ← Fact table with 5 partitions (2021–2025)
+
 notebooks/
 ├── 01_ingest_data.ipynb
 ├── 02_unify_schema.ipynb
@@ -57,3 +73,36 @@ sql/
 ├── schemas/
 
 README.md
+```
+
+---
+
+## Semantic model
+
+The `models/YellowTaxi/` folder contains the **YellowTaxi** semantic model stored in
+[Tabular Editor "Save to folder" format](https://docs.tabulareditor.com/te3/features/save-to-folder.html),
+making it version-control friendly.
+
+### Schema overview
+
+| Table | Type | Columns | Measures | Partitions |
+|---|---|---|---|---|
+| Yellow Taxi | Fact | 27 | 10 | 5 (2021–2025) |
+| Date | Dimension | 19 | — | 1 |
+| Time | Dimension | 10 | — | 1 |
+| Vendor | Dimension | 2 | — | 1 |
+| Payment Type | Dimension | 2 | — | 1 |
+| Rate Code | Dimension | 2 | — | 1 |
+| Taxi Zone Pickup | Dimension | 4 | — | 1 |
+| Taxi Zone Dropoff | Dimension | 4 | — | 1 |
+
+The fact table is partitioned by year to allow controlled experiments comparing
+memory footprint and query performance across different partition strategies.
+
+### Measures
+
+The following base measures are defined on the fact table:
+
+- Airport Fee, Congestion Surcharge, Extra, Fare Amount
+- Improvement Surcharge, MTA Tax, CBD Congestion Fee
+- Passenger Count, Tip Amount, Tolls Amount, Total Amount, Trip Distance
