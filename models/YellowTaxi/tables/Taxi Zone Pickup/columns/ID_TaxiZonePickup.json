@@ -1,0 +1,9 @@
+{
+  "name": "ID_TaxiZonePickup",
+  "dataType": "int64",
+  "isHidden": true,
+  "isKey": true,
+  "sourceColumn": "ID_TaxiZonePickup",
+  "isAvailableInMdx": false,
+  "lineageTag": "8228cd92-d4ce-4962-8870-5dd3d37b8eab"
+}

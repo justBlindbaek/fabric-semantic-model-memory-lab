@@ -1,0 +1,7 @@
+{
+  "name": "Minute",
+  "dataType": "int64",
+  "sourceColumn": "Minute",
+  "lineageTag": "0f3c702b-799a-4441-a993-c8b2d85120c4",
+  "summarizeBy": "none"
+}

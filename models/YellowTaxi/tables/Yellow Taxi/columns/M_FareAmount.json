@@ -1,0 +1,8 @@
+{
+  "name": "M_FareAmount",
+  "dataType": "double",
+  "isHidden": true,
+  "sourceColumn": "M_FareAmount",
+  "isAvailableInMdx": false,
+  "lineageTag": "260a957f-6e3a-48d7-a7b9-2a1abd455ed9"
+}

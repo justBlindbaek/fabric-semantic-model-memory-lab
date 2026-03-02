@@ -1,0 +1,7 @@
+{
+  "name": "Hour Label",
+  "dataType": "string",
+  "sourceColumn": "HourLabel",
+  "sortByColumn": "Hour",
+  "lineageTag": "08ba07f5-e1b7-40a3-916c-ecc1ab9a30ea"
+}

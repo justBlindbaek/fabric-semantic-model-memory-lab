@@ -1,0 +1,21 @@
+{
+  "name": "Yellow Taxi 2024",
+  "mode": "import",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = Sql.Database(\"kfjr74iyptoendpmtwwuaflibq-n77qfzwqwe3edcs77vui2zkhsm.datawarehouse.fabric.microsoft.com\",\"OpenDatasets\"),",
+      "    Data = Source{[Schema=\"fct\",Item=\"YellowTaxi\"]}[Data],",
+      "    Filtered = Table.SelectRows(Data,each [Year] = 2024)",
+      "in",
+      "    #\"Filtered\""
+    ]
+  },
+  "annotations": [
+    {
+      "name": "TE_FabricSignInFlow",
+      "value": "1"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "ID_TaxiZoneDropoff",
+  "dataType": "int64",
+  "isHidden": true,
+  "isKey": true,
+  "sourceColumn": "ID_TaxiZoneDropoff",
+  "isAvailableInMdx": false,
+  "lineageTag": "7bae6cec-20c3-4205-99d3-76da0d7718c3"
+}

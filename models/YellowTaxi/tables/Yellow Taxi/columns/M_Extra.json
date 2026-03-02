@@ -1,0 +1,8 @@
+{
+  "name": "M_Extra",
+  "dataType": "double",
+  "isHidden": true,
+  "sourceColumn": "M_Extra",
+  "isAvailableInMdx": false,
+  "lineageTag": "a097e206-2cd8-455f-8344-bf083ac5f05f"
+}

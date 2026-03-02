@@ -1,0 +1,8 @@
+{
+  "name": "M_ImprovementSurcharge",
+  "dataType": "double",
+  "isHidden": true,
+  "sourceColumn": "M_ImprovementSurcharge",
+  "isAvailableInMdx": false,
+  "lineageTag": "ef46e631-a7f1-4a8a-9fa7-1df791be9d37"
+}

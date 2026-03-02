@@ -1,0 +1,8 @@
+{
+  "name": "M_PassengerCount",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "M_PassengerCount",
+  "isAvailableInMdx": false,
+  "lineageTag": "4e39ce2f-edcc-4226-9898-df7432459d8c"
+}

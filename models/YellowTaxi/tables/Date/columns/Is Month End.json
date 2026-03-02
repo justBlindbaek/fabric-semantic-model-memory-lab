@@ -1,0 +1,6 @@
+{
+  "name": "Is Month End",
+  "dataType": "boolean",
+  "sourceColumn": "IsMonthEnd",
+  "lineageTag": "50e99542-b7a9-4a2c-90ab-6c9a59c99055"
+}

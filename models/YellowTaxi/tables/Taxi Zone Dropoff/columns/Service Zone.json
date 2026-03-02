@@ -1,0 +1,6 @@
+{
+  "name": "Service Zone",
+  "dataType": "string",
+  "sourceColumn": "ServiceZone",
+  "lineageTag": "d3135391-7b27-4c67-aa18-b83c4b37b4c8"
+}

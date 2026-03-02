@@ -1,0 +1,7 @@
+{
+  "name": "Minute Label",
+  "dataType": "string",
+  "sourceColumn": "MinuteLabel",
+  "sortByColumn": "Minute",
+  "lineageTag": "575792af-6cdd-47d8-acc4-2c0b01726ebf"
+}

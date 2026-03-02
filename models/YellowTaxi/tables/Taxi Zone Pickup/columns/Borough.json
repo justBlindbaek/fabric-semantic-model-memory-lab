@@ -1,0 +1,6 @@
+{
+  "name": "Borough",
+  "dataType": "string",
+  "sourceColumn": "Borough",
+  "lineageTag": "11b6eca8-7f86-4140-9674-fcf9af016bf5"
+}

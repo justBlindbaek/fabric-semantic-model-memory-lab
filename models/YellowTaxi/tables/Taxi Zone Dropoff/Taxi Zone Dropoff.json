@@ -1,0 +1,10 @@
+{
+  "name": "Taxi Zone Dropoff",
+  "lineageTag": "41767167-0caa-4cc5-95b3-ec83ecbd56f4",
+  "annotations": [
+    {
+      "name": "TabularEditor_Relationships",
+      "value": "[]"
+    }
+  ]
+}

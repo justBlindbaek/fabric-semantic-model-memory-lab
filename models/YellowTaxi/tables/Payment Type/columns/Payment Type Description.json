@@ -1,0 +1,6 @@
+{
+  "name": "Payment Type Description",
+  "dataType": "string",
+  "sourceColumn": "PaymentTypeDescription",
+  "lineageTag": "de492e56-5501-4c90-bcd6-0078987433b2"
+}

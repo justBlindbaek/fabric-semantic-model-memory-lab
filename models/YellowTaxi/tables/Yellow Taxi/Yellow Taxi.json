@@ -1,0 +1,70 @@
+{
+  "name": "Yellow Taxi",
+  "lineageTag": "6bd9e502-777c-41b7-9f98-daa4728a1821",
+  "defaultDetailRowsDefinition": {
+    "expression": [
+      "SELECTCOLUMNS(",
+      "    'Yellow Taxi',",
+      "    \"Pickup Date\", 'Yellow Taxi'[Pickup Date],",
+      "    \"Pickup Time\", RELATED( Time[Time Label] ),",
+      "    \"Pickup Zone\", RELATED( 'Taxi Zone Pickup'[Zone] ),",
+      "    \"Dropoff Zone\", RELATED( 'Taxi Zone Dropoff'[Zone] ),",
+      "    \"Payment Identifier\", 'Yellow Taxi'[Payment Identifier],",
+      "    \"Total Amount\", 'Yellow Taxi'[M_TotalAmount],",
+      "    \"Passenger Count\", 'Yellow Taxi'[M_PassengerCount],",
+      "    \"Trip Distance\", 'Yellow Taxi'[M_TripDistance]",
+      ")"
+    ]
+  },
+  "annotations": [
+    {
+      "name": "TabularEditor_Relationships",
+      "value": [
+        "[",
+        "  {",
+        "    \"fromTable\": \"Yellow Taxi\",",
+        "    \"fromColumn\": \"ID_Date\",",
+        "    \"toTable\": \"Date\",",
+        "    \"toColumn\": \"ID_Date\"",
+        "  },",
+        "  {",
+        "    \"fromTable\": \"Yellow Taxi\",",
+        "    \"fromColumn\": \"ID_PaymentType\",",
+        "    \"toTable\": \"Payment Type\",",
+        "    \"toColumn\": \"ID_PaymentType\"",
+        "  },",
+        "  {",
+        "    \"fromTable\": \"Yellow Taxi\",",
+        "    \"fromColumn\": \"ID_RateCode\",",
+        "    \"toTable\": \"Rate Code\",",
+        "    \"toColumn\": \"ID_RateCode\"",
+        "  },",
+        "  {",
+        "    \"fromTable\": \"Yellow Taxi\",",
+        "    \"fromColumn\": \"ID_TaxiZoneDropoff\",",
+        "    \"toTable\": \"Taxi Zone Dropoff\",",
+        "    \"toColumn\": \"ID_TaxiZoneDropoff\"",
+        "  },",
+        "  {",
+        "    \"fromTable\": \"Yellow Taxi\",",
+        "    \"fromColumn\": \"ID_TaxiZonePickup\",",
+        "    \"toTable\": \"Taxi Zone Pickup\",",
+        "    \"toColumn\": \"ID_TaxiZonePickup\"",
+        "  },",
+        "  {",
+        "    \"fromTable\": \"Yellow Taxi\",",
+        "    \"fromColumn\": \"ID_Time\",",
+        "    \"toTable\": \"Time\",",
+        "    \"toColumn\": \"ID_Time\"",
+        "  },",
+        "  {",
+        "    \"fromTable\": \"Yellow Taxi\",",
+        "    \"fromColumn\": \"ID_Vendor\",",
+        "    \"toTable\": \"Vendor\",",
+        "    \"toColumn\": \"ID_Vendor\"",
+        "  }",
+        "]"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Tip Amount",
+  "description": "This measure is the sum of column 'YellowTaxi'[M_TipAmount]",
+  "expression": "SUM('Yellow Taxi'[M_TipAmount])",
+  "formatString": "#,0",
+  "lineageTag": "245c5688-7d29-403e-97c9-be584d64164f"
+}

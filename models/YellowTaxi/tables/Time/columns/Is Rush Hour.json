@@ -1,0 +1,6 @@
+{
+  "name": "Is Rush Hour",
+  "dataType": "boolean",
+  "sourceColumn": "IsRushHour",
+  "lineageTag": "9b22774c-8f03-44b7-a6a8-8454293cd331"
+}

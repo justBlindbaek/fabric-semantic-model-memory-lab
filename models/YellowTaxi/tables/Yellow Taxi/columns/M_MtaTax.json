@@ -1,0 +1,8 @@
+{
+  "name": "M_MtaTax",
+  "dataType": "double",
+  "isHidden": true,
+  "sourceColumn": "M_MtaTax",
+  "isAvailableInMdx": false,
+  "lineageTag": "f13f5574-8d65-4c44-a770-d620fd85c6d7"
+}

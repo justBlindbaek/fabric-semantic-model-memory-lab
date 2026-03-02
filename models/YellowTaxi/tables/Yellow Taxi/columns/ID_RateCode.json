@@ -1,0 +1,8 @@
+{
+  "name": "ID_RateCode",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "ID_RateCode",
+  "isAvailableInMdx": false,
+  "lineageTag": "1cea75d3-58f7-4094-927c-c37a15571af1"
+}

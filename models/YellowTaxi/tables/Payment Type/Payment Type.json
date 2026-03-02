@@ -1,0 +1,10 @@
+{
+  "name": "Payment Type",
+  "lineageTag": "6c4f3770-ae87-4afe-802d-ff4a8b888750",
+  "annotations": [
+    {
+      "name": "TabularEditor_Relationships",
+      "value": "[]"
+    }
+  ]
+}

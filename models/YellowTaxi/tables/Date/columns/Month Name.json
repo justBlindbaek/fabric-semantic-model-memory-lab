@@ -1,0 +1,6 @@
+{
+  "name": "Month Name",
+  "dataType": "string",
+  "sourceColumn": "MonthName",
+  "lineageTag": "3601ce0a-2c1c-4962-8e31-8356765d0bc2"
+}

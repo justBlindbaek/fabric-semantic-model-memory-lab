@@ -1,0 +1,6 @@
+{
+  "name": "Is Month Start",
+  "dataType": "boolean",
+  "sourceColumn": "IsMonthStart",
+  "lineageTag": "261c879f-6623-4f2a-ac50-2cc8e523a556"
+}

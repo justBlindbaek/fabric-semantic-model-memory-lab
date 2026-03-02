@@ -1,0 +1,7 @@
+{
+  "name": "Week Of Year",
+  "dataType": "int64",
+  "sourceColumn": "WeekOfYear",
+  "lineageTag": "91be23d9-9478-462c-af6a-46f0f80e0f49",
+  "summarizeBy": "none"
+}

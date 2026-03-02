@@ -1,0 +1,7 @@
+{
+  "name": "Quarter",
+  "dataType": "int64",
+  "sourceColumn": "Quarter",
+  "lineageTag": "1db62bfd-4551-46d2-aa43-84f1ffd453a8",
+  "summarizeBy": "none"
+}

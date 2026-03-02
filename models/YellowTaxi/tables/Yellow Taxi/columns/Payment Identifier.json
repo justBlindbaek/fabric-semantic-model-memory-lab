@@ -1,0 +1,6 @@
+{
+  "name": "Payment Identifier",
+  "dataType": "string",
+  "sourceColumn": "PaymentIdentifier",
+  "lineageTag": "d1b56292-239d-4e2e-ba21-9a20bc1bc038"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Day Of Week Iso",
+  "dataType": "int64",
+  "sourceColumn": "DayOfWeekIso",
+  "lineageTag": "bcc7af7f-354d-48b8-841b-02f9b59b8be0",
+  "summarizeBy": "none"
+}

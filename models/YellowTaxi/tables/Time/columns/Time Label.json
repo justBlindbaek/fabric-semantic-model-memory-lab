@@ -1,0 +1,6 @@
+{
+  "name": "Time Label",
+  "dataType": "string",
+  "sourceColumn": "TimeLabel",
+  "lineageTag": "f348cdf2-a35b-4f1b-9766-6251935a9f06"
+}

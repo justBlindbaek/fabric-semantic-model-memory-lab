@@ -1,0 +1,8 @@
+{
+  "name": "M_AirportFee",
+  "dataType": "double",
+  "isHidden": true,
+  "sourceColumn": "M_AirportFee",
+  "isAvailableInMdx": false,
+  "lineageTag": "121fcbe6-1691-44ae-a071-66478466a914"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Hour",
+  "dataType": "int64",
+  "sourceColumn": "Hour",
+  "lineageTag": "1ab7a65b-d9ea-4a53-bf1b-59869e414fc7",
+  "summarizeBy": "none"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Is Night",
+  "dataType": "boolean",
+  "sourceColumn": "IsNight",
+  "lineageTag": "4c0a793c-a509-43a6-b16e-9a30be74dc5b"
+}

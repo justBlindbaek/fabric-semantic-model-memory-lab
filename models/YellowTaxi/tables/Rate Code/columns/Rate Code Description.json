@@ -1,0 +1,6 @@
+{
+  "name": "Rate Code Description",
+  "dataType": "string",
+  "sourceColumn": "RateCodeDescription",
+  "lineageTag": "46cb9cc7-a0d5-43e3-bf75-7de5d47e9e04"
+}

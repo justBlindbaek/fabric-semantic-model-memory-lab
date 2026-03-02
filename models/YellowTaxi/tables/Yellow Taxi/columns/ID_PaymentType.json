@@ -1,0 +1,8 @@
+{
+  "name": "ID_PaymentType",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "ID_PaymentType",
+  "isAvailableInMdx": false,
+  "lineageTag": "f501dc33-b96b-4966-aa5f-22d3f88fb953"
+}

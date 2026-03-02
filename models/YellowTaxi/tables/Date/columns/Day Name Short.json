@@ -1,0 +1,6 @@
+{
+  "name": "Day Name Short",
+  "dataType": "string",
+  "sourceColumn": "DayNameShort",
+  "lineageTag": "f620abf9-b925-4c92-9299-cb288880c60a"
+}

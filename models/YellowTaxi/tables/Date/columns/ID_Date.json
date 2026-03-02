@@ -1,0 +1,8 @@
+{
+  "name": "ID_Date",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "ID_Date",
+  "isAvailableInMdx": false,
+  "lineageTag": "429a1953-bb0a-4f64-878e-d11cd473b107"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Part Of Day",
+  "dataType": "string",
+  "sourceColumn": "PartOfDay",
+  "lineageTag": "ff5bda57-e0ed-4251-9ac7-2c9a13d0f521"
+}

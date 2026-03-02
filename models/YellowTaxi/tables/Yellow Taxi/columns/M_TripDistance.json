@@ -1,0 +1,8 @@
+{
+  "name": "M_TripDistance",
+  "dataType": "double",
+  "isHidden": true,
+  "sourceColumn": "M_TripDistance",
+  "isAvailableInMdx": false,
+  "lineageTag": "4040f7c8-84ea-4b96-aa1c-70280f52fab8"
+}

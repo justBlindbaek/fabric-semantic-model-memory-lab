@@ -1,0 +1,6 @@
+{
+  "name": "Month Short",
+  "dataType": "string",
+  "sourceColumn": "MonthShort",
+  "lineageTag": "b41b5501-1cce-42a1-8e2b-82a6e78ce4c2"
+}

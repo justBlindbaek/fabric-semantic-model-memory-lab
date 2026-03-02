@@ -1,0 +1,7 @@
+{
+  "name": "Day Of Month",
+  "dataType": "int64",
+  "sourceColumn": "DayOfMonth",
+  "lineageTag": "d3edec62-f652-4f03-8eab-02870a1d0183",
+  "summarizeBy": "none"
+}

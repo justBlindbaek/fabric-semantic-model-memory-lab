@@ -1,0 +1,8 @@
+{
+  "name": "M_TollsAmount",
+  "dataType": "double",
+  "isHidden": true,
+  "sourceColumn": "M_TollsAmount",
+  "isAvailableInMdx": false,
+  "lineageTag": "6e7f7684-aa7f-4cd0-bf64-3eb8ddae4b0b"
+}

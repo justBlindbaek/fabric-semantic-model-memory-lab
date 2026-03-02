@@ -1,0 +1,7 @@
+{
+  "name": "Pickup Datetime",
+  "dataType": "dateTime",
+  "sourceColumn": "PickupDatetime",
+  "formatString": "yyyy-mm-dd hh:nn:ss",
+  "lineageTag": "5e1b243e-9af8-415f-9458-bd3cedfa128f"
+}

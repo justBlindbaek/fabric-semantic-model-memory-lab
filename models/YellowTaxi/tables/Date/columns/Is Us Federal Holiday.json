@@ -1,0 +1,6 @@
+{
+  "name": "Is Us Federal Holiday",
+  "dataType": "boolean",
+  "sourceColumn": "IsUsFederalHoliday",
+  "lineageTag": "a5c03d8b-f574-4600-bebb-dae8b7fc06f9"
+}

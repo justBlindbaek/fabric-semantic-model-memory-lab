@@ -1,0 +1,6 @@
+{
+  "name": "Us Federal Holiday Name",
+  "dataType": "string",
+  "sourceColumn": "UsFederalHolidayName",
+  "lineageTag": "2456737e-a667-472f-af3f-54b60739abf3"
+}

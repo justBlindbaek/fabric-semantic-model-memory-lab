@@ -1,0 +1,6 @@
+{
+  "name": "Year Quarter",
+  "dataType": "string",
+  "sourceColumn": "YearQuarter",
+  "lineageTag": "a0acc264-f628-43b7-8415-d16ef52747e2"
+}

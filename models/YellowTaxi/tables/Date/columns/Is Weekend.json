@@ -1,0 +1,6 @@
+{
+  "name": "Is Weekend",
+  "dataType": "boolean",
+  "sourceColumn": "IsWeekend",
+  "lineageTag": "56d2959b-6982-4c0b-ae55-b2877c220a7e"
+}

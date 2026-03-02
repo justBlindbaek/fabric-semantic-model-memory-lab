@@ -1,0 +1,20 @@
+{
+  "name": "Time",
+  "mode": "import",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = Sql.Database(\"kfjr74iyptoendpmtwwuaflibq-n77qfzwqwe3edcs77vui2zkhsm.datawarehouse.fabric.microsoft.com\",\"OpenDatasets\"),",
+      "    Data = Source{[Schema=\"dim\",Item=\"Time\"]}[Data]",
+      "in",
+      "    Data"
+    ]
+  },
+  "annotations": [
+    {
+      "name": "TE_FabricSignInFlow",
+      "value": "1"
+    }
+  ]
+}

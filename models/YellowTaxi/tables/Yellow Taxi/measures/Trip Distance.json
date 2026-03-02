@@ -1,0 +1,7 @@
+{
+  "name": "Trip Distance",
+  "description": "This measure is the sum of column 'YellowTaxi'[M_TripDistance]",
+  "expression": "SUM('Yellow Taxi'[M_TripDistance])",
+  "formatString": "#,0",
+  "lineageTag": "502b4af9-34cc-4c96-ab00-8c67d64c03da"
+}

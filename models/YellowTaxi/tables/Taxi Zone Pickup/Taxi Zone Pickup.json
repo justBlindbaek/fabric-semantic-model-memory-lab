@@ -1,0 +1,10 @@
+{
+  "name": "Taxi Zone Pickup",
+  "lineageTag": "0cd6242c-036e-4f0b-899c-a800d5506d8f",
+  "annotations": [
+    {
+      "name": "TabularEditor_Relationships",
+      "value": "[]"
+    }
+  ]
+}

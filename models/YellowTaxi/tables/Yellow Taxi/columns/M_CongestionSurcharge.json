@@ -1,0 +1,8 @@
+{
+  "name": "M_CongestionSurcharge",
+  "dataType": "double",
+  "isHidden": true,
+  "sourceColumn": "M_CongestionSurcharge",
+  "isAvailableInMdx": false,
+  "lineageTag": "f795d34d-947e-4f6d-9825-eae4f324989a"
+}

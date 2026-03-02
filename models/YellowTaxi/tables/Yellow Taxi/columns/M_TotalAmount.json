@@ -1,0 +1,8 @@
+{
+  "name": "M_TotalAmount",
+  "dataType": "double",
+  "isHidden": true,
+  "sourceColumn": "M_TotalAmount",
+  "isAvailableInMdx": false,
+  "lineageTag": "147e834d-8ff9-4fad-b736-e1a563b0df6e"
+}

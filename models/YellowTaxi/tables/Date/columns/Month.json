@@ -1,0 +1,7 @@
+{
+  "name": "Month",
+  "dataType": "int64",
+  "sourceColumn": "Month",
+  "lineageTag": "2702dd47-aef9-445d-8999-8f755220bfd2",
+  "summarizeBy": "none"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "M_CbdCongestionFee",
+  "dataType": "double",
+  "isHidden": true,
+  "sourceColumn": "M_CbdCongestionFee",
+  "isAvailableInMdx": false,
+  "lineageTag": "7490d6a9-e88f-4244-898b-c727a481a883"
+}

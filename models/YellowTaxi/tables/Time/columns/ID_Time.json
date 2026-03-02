@@ -1,0 +1,9 @@
+{
+  "name": "ID_Time",
+  "dataType": "int64",
+  "isHidden": true,
+  "isKey": true,
+  "sourceColumn": "ID_Time",
+  "isAvailableInMdx": false,
+  "lineageTag": "bca34a72-2d77-4ddf-aaf8-3e2feb07c3b4"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Pickup Time",
+  "dataType": "dateTime",
+  "sourceColumn": "PickupTime",
+  "formatString": "hh:nn:ss",
+  "lineageTag": "d4a396ca-30f9-4906-bed3-6171b1f72869"
+}

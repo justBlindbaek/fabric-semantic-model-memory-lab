@@ -1,0 +1,9 @@
+{
+  "name": "ID_Vendor",
+  "dataType": "int64",
+  "isHidden": true,
+  "isKey": true,
+  "sourceColumn": "ID_Vendor",
+  "isAvailableInMdx": false,
+  "lineageTag": "38f8c117-6a18-47d9-9329-2e5320cad6b8"
+}

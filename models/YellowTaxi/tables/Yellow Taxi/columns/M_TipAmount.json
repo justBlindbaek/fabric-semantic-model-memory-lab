@@ -1,0 +1,8 @@
+{
+  "name": "M_TipAmount",
+  "dataType": "double",
+  "isHidden": true,
+  "sourceColumn": "M_TipAmount",
+  "isAvailableInMdx": false,
+  "lineageTag": "cb50caec-97c9-4ac0-b3e9-831b04a5bcfd"
+}

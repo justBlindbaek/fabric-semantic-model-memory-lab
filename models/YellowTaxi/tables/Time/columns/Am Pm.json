@@ -1,0 +1,6 @@
+{
+  "name": "Am Pm",
+  "dataType": "string",
+  "sourceColumn": "AmPm",
+  "lineageTag": "c1f38394-cb01-47c5-b8a5-326e7f735c1d"
+}
